@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BandsEvent</string>
+    <string name="opAccessibilityServiceName">onAcessibilityServiceName</string>
+    <string name="opAccessibilityServiceDescription">opAccessibilityServiceDescription</string>
+</resources>

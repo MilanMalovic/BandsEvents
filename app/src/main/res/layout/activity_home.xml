@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/input_artist"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#90A4AE"
+            android:hint="Type your event"
+            android:layout_marginBottom="50dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/input_artist"
+            android:text="Search"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
